@@ -27,8 +27,6 @@ function alterarTema() {
     body.classList.add("dark")
 }
 
-alterarTema()
-
 function verificarTema(){
     const tema = localStorage.getItem("tema")
     const body = document.querySelector("body")
